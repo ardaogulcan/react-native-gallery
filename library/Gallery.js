@@ -39,6 +39,12 @@ export default class Gallery extends Component {
     super(props);
   }
 
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.initialPage !== this.currentPage) {
+      this.currentPage = nextProps.initialPage;
+    }
+  }
+
   componentWillMount() {
     function onResponderReleaseOrTerminate(evt, gestureState) {
       if (this.activeResponder) {
