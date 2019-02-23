@@ -19,7 +19,6 @@
   "dependencies": {
     "@ldn0x7dc/react-native-view-pager": "git://github.com/ardaogulcan/react-native-view-pager.git",
     "prop-types": "^15.6.2",
-    "react-native-gesture-responder": "0.1.1",
-    "react-native-transformable-image": "0.0.18"
+    "react-native-gesture-responder": "0.1.1"
   }
 }
