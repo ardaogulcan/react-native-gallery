@@ -5,8 +5,8 @@ import {
 } from 'react-native';
 
 import Image from './TransformableImage';
-import ViewPager from '@ldn0x7dc/react-native-view-pager';
-import {createResponder} from 'react-native-gesture-responder';
+import ViewPager from './ViewPager';
+import {createResponder} from './GestureResponder';
 
 
 export default class Gallery extends Component {

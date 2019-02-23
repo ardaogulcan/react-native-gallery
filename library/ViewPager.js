@@ -6,8 +6,8 @@ import {
   Platform
 } from 'react-native';
 
-import Scroller from 'react-native-scroller';
-import {createResponder} from 'react-native-gesture-responder';
+import Scroller from './Scroller';
+import {createResponder} from './GestureResponder';
 import TimerMixin from 'react-timer-mixin';
 import reactMixin from 'react-mixin';
 
